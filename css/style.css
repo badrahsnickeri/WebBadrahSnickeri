@@ -15989,7 +15989,7 @@ Section Title
 .video-section-six .video-column .inner-column .video-box {
   position: absolute;
   top: 170px;
-  left: 53%;
+  /*left: 53%;*/
   z-index: 2;
   max-width: 500px; /* Add this line */
   width: 100%; /* Add this line */
