@@ -1463,23 +1463,26 @@
                 <div class="shape"></div>
                 <div class="video-box">
                   <!-- Your local video file -->
-                  <video
+                  <div
                     style="
                       width: 100%;
-                      border-radius: 10px;
                       max-width: 500px;
-                      height: 150px;
-                      object-fit: cover;
+                      border-radius: 10px;
+                      overflow: hidden;
                     "
-                    controls
-                    playsinline
                   >
-                    <source
-                      src="https://drive.google.com/file/d/1UYsvNgTvVy5X0QbHjY8MIVOC74ffCBsn/view?usp=sharing"
-                      type="video/mp4"
-                    />
-                    Din webbläsare stöder inte videouppspelning.
-                  </video>
+                    <iframe
+                      width="100%"
+                      height="300"
+                      src="https://www.youtube.com/embed/juCvEV7MdUs?si=ZEGTnYMehBydBtQg"
+                      title="BadrahSnickeri Woodworking"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                      style="border-radius: 10px"
+                    >
+                    </iframe>
+                  </div>
                 </div>
               </div>
             </div>

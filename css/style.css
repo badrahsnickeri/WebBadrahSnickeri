@@ -15879,10 +15879,12 @@ Section Title
 .video-section-six {
   position: relative;
   padding: 120px 0;
+  margin-bottom: 80px;
 }
 @media (max-width: 991.98px) {
   .video-section-six {
     padding-bottom: 160px;
+    margin-bottom: 100px;
   }
 }
 .video-section-six.pull-up .bg {
@@ -15938,6 +15940,7 @@ Section Title
   background-color: var(--theme-color1);
   -webkit-transform: skewX(-30deg);
   transform: skewX(-30deg);
+  z-index: 1;
 }
 @media (max-width: 991.98px) {
   .video-section-six .video-column .inner-column .shape {
@@ -15981,11 +15984,15 @@ Section Title
   width: 146px;
   height: 71px;
   background-image: url(../images/icons/icon-text.png);
+  z-index: 2;
 }
 .video-section-six .video-column .inner-column .video-box {
   position: absolute;
   top: 170px;
   left: 53%;
+  z-index: 2;
+  max-width: 500px; /* Add this line */
+  width: 100%; /* Add this line */
 }
 @media (max-width: 991.98px) {
   .video-section-six .video-column .inner-column .video-box {
