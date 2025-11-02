@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://badrahsnickeri.netlify.app/sitemap.xml

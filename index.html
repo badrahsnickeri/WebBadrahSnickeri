@@ -2,24 +2,98 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8" />
-    <title>BadrahSnickeri</title>
-    <style>
-      .floating-image {
-        animation: float 3s ease-in-out infinite;
-      }
+    <title>
+      BadrahSnickeri - Snickare Stockholm | Möbelsnickare Upplands Väsby
+    </title>
 
-      @keyframes float {
-        0% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-20px);
-        }
-        100% {
-          transform: translateY(0px);
-        }
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="BadrahSnickeri - Professionell snickare i Stockholm. Skräddarsydda möbler, köksrenovering, golvläggning & badrumsrenovering. 7+ års erfarenhet. Gratis offert!"
+    />
+    <meta
+      name="keywords"
+      content="snickare stockholm, snickeri upplands väsby, möbelsnickare, köksrenovering, golvläggning, badrumsrenovering, snickartjänster"
+    />
+    <meta name="author" content="Shadi Badarh - BadrahSnickeri" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="BadrahSnickeri - Professionell Snickare Stockholm & Upplands Väsby"
+    />
+    <meta
+      property="og:description"
+      content="Skräddarsydda möbler, renoveringar & snickeritjänster. 7+ års erfarenhet. Gratis konsultation!"
+    />
+    <meta
+      property="og:image"
+      content="https://badrahsnickeri.netlify.app/images/logoF.png"
+    />
+    <meta property="og:url" content="https://badrahsnickeri.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sv_SE" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="BadrahSnickeri - Professionell Snickare Stockholm"
+    />
+    <meta
+      name="twitter:description"
+      content="Skräddarsydda möbler & renoveringar. 7+ års erfarenhet."
+    />
+
+    <!-- Viewport -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "BadrahSnickeri",
+        "description": "Professionella snickeritjänster i Stockholm och Upplands Väsby",
+        "url": "https://badrahsnickeri.netlify.app",
+        "telephone": "+46729139970",
+        "email": "info.BadarhSnickeri@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "194 47",
+          "addressLocality": "Upplands Väsby",
+          "addressRegion": "Stockholm",
+          "postalCode": "194 47",
+          "addressCountry": "SE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "59.5204",
+          "longitude": "17.9283"
+        },
+        "openingHours": "Mo-Fr 08:00-18:00",
+        "areaServed": [
+          "Stockholm",
+          "Upplands Väsby",
+          "Sollentuna",
+          "Täby",
+          "Vallentuna"
+        ],
+        "serviceType": [
+          "Carpentry",
+          "FurnitureMaking",
+          "HomeRenovation",
+          "FlooringInstallation"
+        ],
+        "priceRange": "$$"
       }
-    </style>
+    </script>
+
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link
@@ -27,29 +101,21 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- REVOLUTION SETTINGS STYLES -->
     <link
       href="plugins/revolution/css/layers.css"
       rel="stylesheet"
       type="text/css"
     />
-    <!-- REVOLUTION LAYERS STYLES -->
     <link
       href="plugins/revolution/css/navigation.css"
       rel="stylesheet"
       type="text/css"
     />
-    <!-- REVOLUTION NAVIGATION STYLES -->
-
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/tes4t.png" type="image/x-icon" />
     <link rel="icon" href="images/tes4t.png" type="image/x-icon" />
 
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
