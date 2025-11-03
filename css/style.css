@@ -4220,9 +4220,9 @@ Main Header
 /* ===== CRITICAL FIX: Logo Image Responsiveness ===== */
 .header-style-six .header-lower .logo-box .logo img {
   max-width: 100% !important;
-  max-height: 100% !important;
+  /*max-height: 100% !important;*/
   width: auto !important;
-  height: auto !important;
+  /*height: auto !important;*/
   object-fit: contain !important;
 }
 
