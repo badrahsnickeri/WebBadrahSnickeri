@@ -4040,6 +4040,7 @@ Main Header
 ====================================================================
 
 ***/
+
 .header-style-six.style-two .header-lower {
   position: relative;
 }
@@ -4177,11 +4178,9 @@ Main Header
     position: relative;
   }
 }
-
-/* ===== YOUR ORIGINAL LOGO BOX CSS - PRESERVED ===== */
 .header-style-six .header-lower .logo-box {
   position: relative;
-  height: 92px;
+  height: 100px;
   min-width: 284px;
   margin-right: 0;
 }
@@ -4216,16 +4215,6 @@ Main Header
     display: none;
   }
 }
-
-/* ===== CRITICAL FIX: Logo Image Responsiveness ===== */
-.header-style-six .header-lower .logo-box .logo img {
-  max-width: 100% !important;
-  /*max-height: 100% !important;*/
-  width: auto !important;
-  /*height: auto !important;*/
-  object-fit: contain !important;
-}
-
 .header-style-six .header-lower .info-btn-two {
   position: relative;
   display: -webkit-inline-box;
@@ -4422,26 +4411,6 @@ Main Header
   }
 }
 
-/* ===== Z FOLD SPECIFIC FIXES ===== */
-@media (min-width: 717px) and (max-width: 886px) {
-  /* Z Fold 4/5 unfolded - only fix the logo image, keep your container sizes */
-  .header-style-six .header-lower .logo-box .logo img {
-    max-width: 90% !important;
-    max-height: 90% !important;
-  }
-  
-  .header-style-six .header-lower .outer-box2 {
-    padding: 15px 0 !important;
-  }
-}
-
-@media (max-width: 654px) {
-  /* Z Fold 4/5 folded */
-  .header-style-six .header-lower .logo-box .logo img {
-    max-width: 85% !important;
-    max-height: 85% !important;
-  }
-}
 /*** 
 ====================================================================
   Header Style Eight
