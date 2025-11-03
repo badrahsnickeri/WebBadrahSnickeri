@@ -4409,6 +4409,83 @@ Main Header
     display: block;
   }
 }
+/* Z Fold 4 specific fixes */
+@media (min-width: 717px) and (max-width: 886px) and (min-height: 1600px) {
+  /* This targets Z Fold 4 unfolded tablet mode */
+  
+  .header-style-six .header-lower .logo-box {
+    min-width: 150px !important;
+    height: 60px !important;
+    padding: 8px 12px !important;
+  }
+  
+  .header-style-six .header-lower .logo-box .logo img {
+    max-height: 45px !important;
+    width: auto !important;
+  }
+  
+  .header-style-six .header-lower .outer-box2 {
+    padding: 8px 15px !important;
+    min-height: 70px !important;
+  }
+  
+  .header-style-six .main-box .nav-outer .navigation > li {
+    padding: 20px 0 !important;
+    margin-right: 25px !important;
+  }
+  
+  .header-style-six .main-box .nav-outer .navigation > li > a {
+    font-size: 13px !important;
+  }
+}
+
+/* Z Fold 4 folded (phone mode) */
+@media (max-width: 654px) {
+  .header-style-six .header-lower .logo-box {
+    min-width: 130px !important;
+    height: 50px !important;
+    padding: 5px 8px !important;
+  }
+  
+  .header-style-six .header-lower .logo-box .logo img {
+    max-height: 40px !important;
+  }
+}
+
+/* General foldable device fixes */
+@media (min-width: 700px) and (max-width: 900px) {
+  .header-style-six .header-lower {
+    position: relative !important;
+  }
+  
+  .header-style-six .main-box {
+    flex-wrap: nowrap !important;
+  }
+  
+  .header-style-six .header-lower .outer-box2 {
+    flex-wrap: nowrap !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Emergency fix for logo sizing */
+.header-style-six .header-lower .logo-box .logo img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  width: auto !important;
+}
+
+/* Ensure header doesn't break on large screens */
+.header-style-six .header-lower {
+  min-height: 80px !important;
+  overflow: hidden !important;
+}
+
+.header-style-six .header-lower .outer-box2 {
+  align-items: center !important;
+  min-height: 70px !important;
+}
 
 /*** 
 ====================================================================
